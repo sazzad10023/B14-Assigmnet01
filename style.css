@@ -44,3 +44,43 @@ header{
     border: none;
     cursor: pointer;
 }
+
+
+.hero{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    text-align: center;
+    color: white;
+}
+
+.overlay h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.overlay p{
+    width: 700px;
+    margin: 0 auto 40px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+ 
+
+.overlay button{
+    width: 30%;
+    margin-top: 250px;
+    padding: 10px ;
+    background-color:#1D4ED8;
+    color: white;
+    font-size: 20px ;
+    border-radius: 18px;
+    margin-top: 250px;
+} 
