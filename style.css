@@ -1,3 +1,4 @@
+/* nav sction start */
 * {
   padding: 0;
   margin: 0;
@@ -45,6 +46,7 @@ header{
     cursor: pointer;
 }
 
+/* hero section start */
 
 .hero{
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
@@ -84,6 +86,9 @@ header{
     border-radius: 18px;
     margin-top: 250px;
 } 
+
+/* Speakers Section start */
+
 .card-container{
     text-align: center;
     margin: 25px auto 25px;
@@ -132,6 +137,8 @@ header{
     font-size: 15px;
     margin-bottom: 20px;
 }
+
+/* Secure Your Spot section start */
 .container1{
     max-width:1000px;
     margin:auto;
@@ -207,6 +214,8 @@ header{
     border:1px solid #333333;
     color:#0D1B2A;
 }
+
+/* PLACEHOLDER SECTION start */
 .faq{
     background-color: #0f172a;
 }
@@ -281,4 +290,47 @@ header{
     padding:0 20px 20px;
     color:#555;
     line-height:1.6;
+}
+
+
+/* footer srction start */
+
+.footer{
+    background-color: #0D1B2A;
+    color:white;
+     padding:40px 80px;
+    border-radius:0;
+    margin: 100px auto 20px ;
+}
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.social-icons{
+    display: flex;
+    gap: 10px;
+    
+}
+.social-icons a i{
+    color: #afb3b7;
+}
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.footer-links a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
 }
