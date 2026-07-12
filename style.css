@@ -160,6 +160,9 @@ header{
     margin-bottom: 30px;
     
 }
+.price-card>h2{
+    font-size: 40px;
+}
 
 .price-abbu{
     margin-top:40px ;
