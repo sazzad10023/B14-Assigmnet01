@@ -132,3 +132,153 @@ header{
     font-size: 15px;
     margin-bottom: 20px;
 }
+.container1{
+    max-width:1000px;
+    margin:auto;
+}
+.price-container{
+    text-align: center;
+    margin: 25px auto 25px;
+    columns: #0D1B2A;
+}
+.price-container>h2{
+    font-size: 48px;
+    margin-top: 100px;
+}
+.price-container>p{
+    font-size: 16px;
+    line-height: 2;
+}
+.price-card p{
+    margin-bottom: 30px;
+    
+}
+
+.price-abbu{
+    margin-top:40px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.price-card{
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:25px;
+    text-align:left;
+    background:#fff;
+    
+}
+.price-card>ul {
+    margin-top: 30px;
+    line-height: 2;
+
+}
+.price-button hr{
+    border: 1px solid #FFFFFF;
+}
+.price-card hr{
+    border: 1px solid #CECECE;
+}
+
+.price-button{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+}
+ .price-card button{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #2563EB;
+    background:#fff;
+    color:#2563eb;
+    font-weight:600;
+    cursor:pointer;
+    margin-top: 20px;
+} 
+.price-button button{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+}
+.price-card li::marker{
+    color:#2563eb;
+}
+.contact-btn button{
+    border:1px solid #333333;
+    color:#0D1B2A;
+}
+.faq{
+    background-color: #0f172a;
+}
+
+.faq>h4{
+    line-height:1.5;
+    text-align:center;
+    color:#2563eb;
+    margin: 100px auto 5px;
+    font-size: 40px;
+}
+
+
+
+.faq>h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:15px;
+    color:white;
+}
+
+
+
+.faq>p{
+    text-align:center;
+    color:#cbd5e1;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+
+
+.faq-box{
+    width: 85%;
+    border:1px solid #ddd;
+    border-radius:10px;
+   margin:20px auto;
+    background:#fff;
+}
+
+
+
+.faq-question{
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    list-style:none;
+    position:relative;
+}
+
+
+
+.faq-question::after{
+    content:"+";
+    position:absolute;
+    right:20px;
+    top:15px;
+    font-size:35px;
+    color:#2563eb;
+}
+
+
+
+.faq-box[open] .faq-question::after{
+    content:"−";
+}
+
+
+
+.faq-answer{
+    padding:0 20px 20px;
+    color:#555;
+    line-height:1.6;
+}
